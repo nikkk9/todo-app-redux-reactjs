@@ -1,0 +1,67 @@
+.todo {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35rem;
+  background-color: rgb(146, 146, 146);
+  padding: 2rem;
+  border-radius: 0.2rem;
+  position: relative;
+  margin-top: -11rem;
+  box-shadow: 0 0.1rem 1rem 0.1rem rgba(0, 0, 0, 0.3);
+}
+
+.inpContainer {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 1rem 1rem;
+}
+.inpContainer input {
+  padding: 0.6rem 1rem;
+  border: none;
+  outline: none;
+  font-size: 0.9rem;
+  margin-right: 1rem;
+  width: 100%;
+}
+.inpContainer span {
+  background-color: teal;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.valueContainer {
+  margin: 1rem 0;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.valueContainer span:nth-child(1) {
+  width: 5rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+.valueContainer span:nth-child(2) {
+  background-color: crimson;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.container p {
+  background-color: rgb(33, 30, 30);
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  cursor: pointer;
+  margin-top: 1rem;
+}
